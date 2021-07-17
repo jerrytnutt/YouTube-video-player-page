@@ -19,160 +19,158 @@ header div{
     justify-content: space-around;
     padding: 15px;
     color: #fff;
-    width: 20%;
-    
+    width: 20%;  
+}
+
+.youtubeName{
+    justify-content: start;
 }
 
 .content{
-   
-    display: flex;
+  display: flex;
   justify-content: space-between;
-    background-color:  #181818;
-    width: 100%;
-    height: 100%;
-    
-    
-}
-
-
-
-.left{
-    background-color: #181818;
-    height: 500px;
-    width: 60%;
-    margin-left: 5%;
-    margin-top: 3%;
-}
-.videoplayer{
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-    background-color: purple;
-  }
-  .videoplayer iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-nav{
-    background-color: rgb(122, 150, 122);
-    margin-right: 5%;
-    margin-top: 3%;
-    height: 500px;
-    width: 28%;
-}
-
-
-i{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+  background-color:  #181818;
+  width: 100%;
+  height: 100%;  
 }
 
 .input{
-    width: 45%;
-    
+  width: 45%;
 }
+
 .input input{
-    width: 100%;
-    background-color: black;
-    height: 30px;
-    color: white;
-    padding-left: 15px;
+  width: 100%;
+  font-size: 20px;
+  background-color: black;
+  height: 30px;
+  color: grey;
+  padding-left: 15px;
 }
+
 .input div{
     height: 8px;
     font-size: 18px;
     width: 10%;
     background-color: hsla(0, 0%, 100%, 0.08);
 }
+
+.currentVideo{
+    background-color: #181818;
+    height: 500px;
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.videoPlayer{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+
+.videoPlayer iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+@media only screen and (max-width: 1000px) {
+    nav {
+      display: none;
+    }
+    .currentVideo{
+        width: 80%;
+    }
+  }
+nav{
+    margin-right: 5%;
+    margin-top: 3%;
+    height: 500px;
+    width: 28%;
+}
+
 .fa-microphone{
     margin-left: 10px;
 }
 .fa-search{
     color: grey;
 }
-.description{
+
+.topDescription{
     background-color: #181818;
     color: white;
 }
-.symbols{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0%;
-    margin-bottom: 10px;
-    border-bottom: 1px solid white;
+
+.videoData{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(71, 71, 71);
+  color: rgb(187, 187, 187);
 }
-.symbols p,i{
+
+.videoData p,i{
     margin-right: 10px;
     margin-left: 10px;
 }
 
 .views{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-right: 150px;
-    background-color: #181818;
-    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 150px;
+  color: rgb(187, 187, 187);
 }
+
 .views p{
     position: relative;
     bottom: 15px;
 }
+
 .right{
-    
     background-color:  #181818;
     display: flex;
     font-size: 25px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 1px solid rgb(148, 138, 138);
-    
-    
-}
-.save{
-    font-size: 20px;
-    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-   
-    justify-content: space-around; 
-   
+    border-bottom: 3px solid rgb(190, 190, 190);   
 }
 
-.details{
+.save{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; 
+  font-size: 20px;
+  color: rgb(187, 187, 187);
+}
+
+.bottomDescription{
     display: flex;
     flex-direction: row;
     color: white;
     font-size: 20px;
-    
     width: 100%;
 }
 
 .idImage{
-    
     color: orange;
     text-align: center;
     font-size: 60px;
-    
 }
 
 .information{
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    border-bottom: 1px solid white;
-    margin-bottom: 0%;
-    
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  border-bottom: 1px solid white;
+  margin-bottom: 0%;  
 }
 
 .infoTop{
@@ -181,56 +179,62 @@ i{
     justify-content: space-between;
     width: 100%;
 }
+
+.infoTop p{
+  margin: 5px;
+}
+
 .subscribers{
-    color: rgb(192, 191, 191);
+  color: rgb(192, 191, 191);
 }
 
 .infoTop button{
-  font-size: 15px;
+  font-size: 20px;
   background-color: #c00;
   border-radius: 5%;
   border: 0;
   color: white;
   width: 150px;
-  padding: 10px;
   text-align: center;
 }
-.showMore{
-    color: gray;
-}
 
-.oneP p{
-    margin: 5px;
+.showMore{
+    color: rgb(187, 187, 187);
 }
 
 .comments{
-    font-size: 20px;
-    padding: 5%;
-    width: 100%;
+  font-size: 20px;
+  padding: 25px;
+  width: 100%;
 }
+
 .comments p{
-    display: inline;
+  display: inline;
 }
+
 .amount{
     color: white;
     margin-right: 10px;
 }
+
 .sort{
     color: rgb(192, 192, 192);
 }
-.start{
-    display: flex;
-    flex-direction: row;
-    font-size: 25px;
-    
-    width: 100%;
-    
 
+.start{
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  width: 100%;
+  color: grey;
+  margin-bottom: 15px;
 }
+
 .circle{
     text-align: center;
     font-size: 55px;
     border-bottom: 1px thin rgb(224, 223, 223);
+    color: orange;
     
 }
 .line{
@@ -246,26 +250,62 @@ i{
     width: 100%;
     
 }
-.people{
+.comentator{
     display: flex;
     flex-direction: row;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     width: 100%;
-    
 }
-.con{
+
+.person{
     display: flex;
     flex-direction: column;
 }
+
 .id{
-    
     font-size: 55px;
     text-align: center;
 }
-.con p{
+.person p{
     margin: 5px;
 }
-.date{
+.date, .rating{
     color: rgb(175, 175, 175);
+}
+.replies{
+    color: rgb(155, 155, 253);
+}
+
+.thumbnail{
+    width: 50%;
+    background-color: greenyellow;
+}
+.thumbnail img{
+    width: 100%;
+}
+.explain{
+   margin: 0;
+    padding: 10px;
+    width: 50%;
+    
+}
+.explain p{
+    
+    margin: 0 !important;
+    padding: 0;
+}
+
+.bubbles{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.bubbles div{
+    border-radius: 40%;
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: #888787;;
 }
