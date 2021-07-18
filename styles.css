@@ -236,8 +236,8 @@ nav{
     font-size: 55px;
     border-bottom: 1px thin rgb(224, 223, 223);
     color: orange;
-    
 }
+
 .commentLine{
   width: 85%;
 }
@@ -247,9 +247,9 @@ nav{
     border-bottom: 1px solid rgb(224, 223, 223);
     
 }
+
 .lineTwo{
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .individualComments{
@@ -322,14 +322,14 @@ nav{
     color: white;
    
 }
-.explain{
+.previewDescription{
    margin: 0;
   padding: 10px;
   width: 50%;
   color: gray;
     
 }
-.explain p{
+.previewDescription p{
     margin: 0 !important;
     margin-bottom: 5px;
     padding: 0;
