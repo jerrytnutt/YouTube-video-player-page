@@ -26,32 +26,32 @@ header div{
     justify-content: start;
 }
 
+.input{
+    width: 45%;
+  }
+  
+  .input input{
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+    height: 30px;
+    color: grey;
+    padding-left: 15px;
+  }
+  
+  .input div{
+      height: 8px;
+      font-size: 18px;
+      width: 10%;
+      background-color: hsla(0, 0%, 100%, 0.08);
+  }
+
 .content{
   display: flex;
   justify-content: space-between;
   background-color:  #181818;
   width: 100%;
   height: 100%;  
-}
-
-.input{
-  width: 45%;
-}
-
-.input input{
-  width: 100%;
-  font-size: 20px;
-  background-color: black;
-  height: 30px;
-  color: grey;
-  padding-left: 15px;
-}
-
-.input div{
-    height: 8px;
-    font-size: 18px;
-    width: 10%;
-    background-color: hsla(0, 0%, 100%, 0.08);
 }
 
 .currentVideo{
@@ -85,6 +85,7 @@ header div{
         width: 80%;
     }
   }
+
 nav{
     margin-right: 5%;
     margin-top: 3%;
@@ -132,7 +133,7 @@ nav{
     bottom: 15px;
 }
 
-.right{
+.thumbs{
     background-color:  #181818;
     display: flex;
     font-size: 25px;
@@ -221,13 +222,13 @@ nav{
     color: rgb(192, 192, 192);
 }
 
-.start{
+.commentSection{
   display: flex;
   flex-direction: row;
   font-size: 25px;
   width: 100%;
-  color: grey;
-  margin-bottom: 15px;
+  color: rgb(192, 192, 192);
+  margin-bottom: 20px;
 }
 
 .circle{
@@ -237,8 +238,8 @@ nav{
     color: orange;
     
 }
-.line{
-    width: 85%;
+.commentLine{
+  width: 85%;
 }
 
 .lineOne{
@@ -250,19 +251,24 @@ nav{
     width: 100%;
     
 }
-.comentator{
-    display: flex;
-    flex-direction: row;
-    color: white;
-    font-size: 20px;
-    width: 100%;
+
+.individualComments{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .person{
     display: flex;
     flex-direction: column;
+    font-size: 20px;
 }
-
+.individualPhoto{
+    margin-right: 10px;
+}
 .id{
     font-size: 55px;
     text-align: center;
@@ -273,39 +279,59 @@ nav{
 .date, .rating{
     color: rgb(175, 175, 175);
 }
+.date{
+    margin-left: 10px;
+}
 .replies{
-    color: rgb(155, 155, 253);
-}
-
-.thumbnail{
-    width: 50%;
-    background-color: greenyellow;
-}
-.thumbnail img{
-    width: 100%;
-}
-.explain{
-   margin: 0;
-    padding: 10px;
-    width: 50%;
-    
-}
-.explain p{
-    
-    margin: 0 !important;
-    padding: 0;
+    color: rgb(92, 92, 255)
 }
 
 .bubbles{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-bottom: 10px;
 }
+
 .bubbles div{
-    border-radius: 40%;
-    margin-right: 10px;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    background-color: #888787;;
+  border-radius: 40%;
+  margin-right: 10px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid rgb(119, 119, 119);
+  padding: 15px;
+  background-color: rgba(65, 65, 65, 0.98);
 }
+
+.fa-chevron-right{
+    color: white;
+    position: relative;
+    top: 18px;
+
+}
+
+.thumbnail{
+  width: 50%;
+  
+}
+.thumbnail img{
+  width: 100%;
+}
+.title{
+    color: white;
+   
+}
+.explain{
+   margin: 0;
+  padding: 10px;
+  width: 50%;
+  color: gray;
+    
+}
+.explain p{
+    margin: 0 !important;
+    margin-bottom: 5px;
+    padding: 0;
+}
+

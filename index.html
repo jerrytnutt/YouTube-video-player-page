@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/youtube.ico" >
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Embed a Youtube Video</title>
     <script src="https://kit.fontawesome.com/6c78170d73.js" crossorigin="anonymous"></script>
 
 </head>
@@ -15,21 +17,26 @@
     <div class="input"><input value="Search" type='text'><div><i class="fas fa-search"></i></div><i class="fas fa-microphone"></i></div>
     <div><i class="fas fa-video"></i><i class="fas fa-th"></i><i class="fas fa-bell"></i><i class="fas fa-user-circle"></i></div>
   </header>
+
+  <!-- Video screen and data -->
+
   <section class="content">
     <div class="currentVideo">
       <div class="videoPlayer">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/9YffrCViTVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+
       <section class="topDescription">
-       <h2>Embed a YouTube Video in HTML and Make it Responsive (CSS included)</h2>
-         <div class="videoData">
-           <div class="views"><p>299,737 views</p>-<p>May 31, 2018</p></div>
-           <div class="right"><i class="fas fa-thumbs-up"></i>3.4K<i class="fas fa-thumbs-down"></i>255</div>
-           <div class="save"><i class="fas fa-share"></i>SHARE<i class="fas fa-save"></i>SAVE<i class="fas fa-ellipsis-h"></i></div> 
+        <h2>Embed a YouTube Video in HTML and Make it Responsive (CSS included)</h2>
+          <div class="videoData">
+            <div class="views"><p>299,737 views</p>-<p>May 31, 2018</p></div>
+            <div class="thumbs"><i class="fas fa-thumbs-up"></i>3.4K<i class="fas fa-thumbs-down"></i>255</div>
+            <div class="save"><i class="fas fa-share"></i>SHARE<i class="fas fa-save"></i>SAVE<i class="fas fa-ellipsis-h"></i></div> 
          </div>
       </section>
+
       <div class="bottomDescription">
-        <div class="idImage"><i class="fas fa-user-circle"></i></div>
+        <div class="idImage"><img src="images/face.png" alt="A black, brown, and white dog wearing a kerchief"></div>
         <div class="information">
           <div class="infoTop">
             <div>
@@ -37,55 +44,143 @@
               <p class="subscribers">27.6K subscribers</p>
             </div>
             <button>Subscribe</button>
-           </div>
+          </div>
           <div class="infoBottom">
             <p>In this quick video, I’ll show you how to embed a YouTube video in HTML, how to make it responsive on any sized device </p>
             <p class="showMore">Show More</p>
           </div>
         </div>
        </div>
+
+      <!-- Comment Section -->
+
       <div class="comments">
         <p class="amount">255 Comments</p><p class="sort"><i class="fas fa-sort-amount-up-alt"></i> SORT BY</p>
       </div>
-      
-      <div class="start">
+
+      <div class="commentSection">
         <div class="circle"><i class="fas fa-user-circle"></i></div>
-        <div class="line">
+        <div class="commentLine">
           <div class="lineOne">Add a public comment...</div>
           <div class="lineTwo"></div>
-              </div>
-            </div>
-              <div class="comentator">
-                <div class="id"><i class="fas fa-user-circle"></i></div>
-                <div class="person">
-                    <p>Grant B. <span class="date">6 months ago</span></p>
-                    <p>Turn this on with Bluetooth speakers in your car  driving at night with flash buttons everywhere feels like home</p>
-                    <p class="rating"><i class="fas fa-thumbs-up"></i>3.4K<i class="fas fa-thumbs-down"></i>REPLY</p>
-                    <p class="replies"><i class="fas fa-sort-down"></i>View Replies</p>
-                </div>
-              </div>
-        </div>
-  
-   <nav>
-       <div class="bubbles"> <div>APP</div> <div>CSS</div> <div>Web Pages</div> </div>
-    <div class="comentator">
-        <div class="thumbnail">
-            <img src="images/thumbnailone.png" alt="A black, brown, and white dog wearing a kerchief">
-
-
-        </div>
-        <div class="explain">
-            <p class="title">javascript Dom crash course part 1</p>
-            <p class="name">name</p>
-            <p class="raiting">VIEWS - YEAR</p>
-           
         </div>
       </div>
 
+      <div class="individualComments">
+        <div class="individualPhoto"><img src="images/p1.png" alt="A black, brown, and white dog wearing a kerchief"></div>
+        <div class="person">
+          <p>CTL LYRICS - SIO <span class="date">1 year ago ago</span></p>
+          <p>THANK YOU FOR THIS VIDEO :)
+            BUT when i embed 10 video on my post its reduce my post speed 70 to 30
+            bcz of "Reduce JavaScript execution time 22.9 s"
+            sorry for rip english</p>
+          <p class="rating"><i class="fas fa-thumbs-up"></i>3<i class="fas fa-thumbs-down"></i>REPLY</p>
+          <p class="replies"><i class="fas fa-sort-down"></i>View Replies</p>
+        </div>
+      </div>
+     
+      <div class="individualComments">
+        <div class="individualPhoto"><img src="images/person2.png" alt="A black, brown, and white dog wearing a kerchief"></div>
+        <div class="person">
+          <p>Ajinkya Patil <span class="date">2 years ago</span></p>
+          <p>Added the div class for google map iframe on my site and it works for that too! Works like a charm! Do mention it in the description so others can use this instead of going around researching. Thanks again!</p>
+          <p class="rating"><i class="fas fa-thumbs-up"></i>12<i class="fas fa-thumbs-down"></i>REPLY</p>
+          <p class="replies"><i class="fas fa-sort-down"></i>View Replies</p>
+        </div>
+      </div>
 
+      <div class="individualComments">
+        <div class="individualPhoto"><img src="images/person3.png" alt="A black, brown, and white dog wearing a kerchief"></div>
+        <div class="person">
+          <p>Ariana Abedini<span class="date">1 year ago</span></p>
+          <p>That was really helpful! Thanks a lot, I was struggling to make it work for my page but I couldn't and you saved my life. :)</p>
+          <p class="rating"><i class="fas fa-thumbs-up"></i>5<i class="fas fa-thumbs-down"></i>REPLY</p>
+          <p class="replies"><i class="fas fa-sort-down"></i>View Replies</p>
+        </div>
+      </div>
 
+      <div class="individualComments">
+        <div class="individualPhoto"><img src="images/person4.png" alt="A black, brown, and white dog wearing a kerchief"></div>
+        <div class="person">
+          <p>Max Baker<span class="date">6 months ago</span></p>
+          <p>Hey TWP. Super simple, easy to follow, effective. Thank you for this!</p>
+          <p class="rating"><i class="fas fa-thumbs-up"></i>2<i class="fas fa-thumbs-down"></i>REPLY</p>
+          <p class="replies"><i class="fas fa-sort-down"></i>View Replies</p>
+        </div>
+      </div>
 
-   </nav>
+      <div class="individualComments">
+        <div class="individualPhoto"><img src="images/person5.png" alt="A black, brown, and white dog wearing a kerchief"></div>
+        <div class="person">
+          <p>Mrs C<span class="date">1 year ago</span></p>
+          <p>Thank you!! I watched 20 videos and this was the MOST HELPFUL ONE!!</p>
+          <p class="rating"><i class="fas fa-thumbs-up"></i>2<i class="fas fa-thumbs-down"></i>REPLY</p>
+          <p class="replies"><i class="fas fa-sort-down"></i>View Replies</p>
+        </div>
+      </div>
+        </div> 
+
+       <!-- Navigation Section -->
+
+   <nav>
+     <div class="bubbles"> <div>APP</div> <div>CSS</div> <div>Web Pages</div> <div>Related</div><i class="fas fa-chevron-right"></i></div>
+     
+
+      <div class="individualComments">
+        <div class="thumbnail">
+            <img src="images/thumbnailone.png" alt="A black, brown, and white dog wearing a kerchief">
+        </div>
+      <div class="explain">
+        <p class="title">HTML Full Course - Build a Website Tutorial</p>
+        <p>freeCodeCamp.org</p>
+        <p>3.7 views - 2 years ago</p>  
+      </div>
+      </div>
+
+      <div class="individualComments">
+        <div class="thumbnail">
+            <img src="images/thumbnailtwo.png" alt="A black, brown, and white dog wearing a kerchief">
+        </div>
+      <div class="explain">
+        <p class="title">Create a Website With Video Background | HTML & CSS</p>
+        <p>Travis Media</p>
+        <p>196k views - 6 months ago</p>  
+      </div>
+      </div>
+
+      <div class="individualComments">
+        <div class="thumbnail">
+            <img src="images/thumbnailThree.png" alt="A black, brown, and white dog wearing a kerchief">
+        </div>
+      <div class="explain">
+        <p class="title">After Effects character animation workflow</p>
+        <p>Emanuele Colombo</p>
+        <p>15M views - 4 years ago</p>  
+      </div>
+      </div>
+
+      <div class="individualComments">
+        <div class="thumbnail">
+            <img src="images/thumbnailFour.png" alt="A black, brown, and white dog wearing a kerchief">
+        </div>
+      <div class="explain">
+        <p class="title">How to Put a Website Online</p>
+        <p>freCodeCamp.org</p>
+        <p >337K views Views - 8 months ago</p>  
+      </div>
+      </div>
+
+      <div class="individualComments">
+        <div class="thumbnail">
+          <img src="images/thumbnailFive.png" alt="A black, brown, and white dog wearing a kerchief">
+        </div>
+      <div class="explain">
+        <p class="title">HTML Crash Course For Beginners</p>
+        <p>Travis Media</p>
+        <p >4.8M views - 4 years ago</p>  
+      </div>
+      </div>
+    </nav>
     </section>
     
 </body>
